@@ -1,0 +1,36 @@
+# deps
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+target/
+vendor/
+
+# build
+dist/
+build/
+.next/
+*.egg-info/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# data (regenerate with the synthetic generator)
+data/raw/
+data/interim/
+*.duckdb
+*.sqlite3
+
+# tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage/
+.coverage
+htmlcov/
+.DS_Store
